@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "193391816594",
+    "project_id": "truststock-e4738",
+    "storage_bucket": "truststock-e4738.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193391816594:android:f46f79d98a7dab97c0db4b",
+        "android_client_info": {
+          "package_name": "com.example.truststock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNDKfdiZZm5WtsWp4gu0H36a6Ij14WWmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

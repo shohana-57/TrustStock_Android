@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">TrustStock</string>
+    <string name="truststock">TrustStock</string>
+    <string name="staff">Staff</string>
+    <string name="customer">Customer</string>
+    <string name="staff_dashboard">Staff Dashboard</string>
+    <string name="manage_products">Manage Products</string>
+    <string name="view_orders">View Orders</string>
+    <string name="product_reviews">Product Reviews</string>
+    <string name="forecast_stock_status"><![CDATA[Forecast & Stock Status]]></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="welcome_staff">Welcome Staff</string>
+    <string name="logout">Logout</string>
 </resources>
