@@ -1,10 +1,12 @@
-package com.example.truststock;
+package com.example.truststock.InitialActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.truststock.R;
+import com.example.truststock.activities.CustomerDashboardActivity;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class CustomerLogin extends AppCompatActivity {
