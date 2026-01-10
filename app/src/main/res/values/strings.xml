@@ -15,4 +15,16 @@
     <string name="username">Username</string>
     <string name="welcome_staff">Welcome Staff</string>
     <string name="logout">Logout</string>
+    <string name="product_management">Product Management</string>
+    <string name="product_name">Product Name</string>
+    <string name="price">Price</string>
+    <string name="stock">Stock</string>
+    <string name="image_url">Image URL</string>
+    <string name="description">Description</string>
+    <string name="add_product">Add Product</string>
+    <string name="Logout">Logout</string>
+    <string name="productName">Product Name</string>
+    <string name="_0_00">$0.00</string>
+    <string name="cart">Cart</string>
+    <string name="productname">Product Name</string>
 </resources>

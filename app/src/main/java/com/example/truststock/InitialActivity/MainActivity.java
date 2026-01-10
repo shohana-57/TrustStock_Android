@@ -1,10 +1,14 @@
-package com.example.truststock;
+package com.example.truststock.InitialActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.truststock.R;
+import com.example.truststock.activities.CustomerDashboardActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     Button btnStaff, btnCustomer;
