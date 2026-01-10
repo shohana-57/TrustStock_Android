@@ -5,4 +5,12 @@
     <item type="id" name="etUsername"/>
     <item type="id" name="etPassword"/>
     <item type="id" name="btnStaffLogin"/>
+    <item type="id" name="recyclerCart" />
+    <item type="id" name="etAddress"/>
+    <item type="id" name="etPhone" />
+    <item type="id" name="tvTotal" />
+    <item  type="id" name="btnPlaceOrder"/>
+    <item type="id" name="tvQuantity" />
+    <item  type="id" name="tvCustomer"/>
+    <item  type="id" name="btnMarkBad"/>
 </resources>
