@@ -1,53 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="24dp"
-        android:gravity="center_horizontal">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/welcome_staff"
+            android:text="Staff Dashboard"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:paddingBottom="30dp"/>
+            android:paddingBottom="16dp"/>
 
         <Button
-            android:id="@+id/btnManageProducts"
+            android:id="@+id/btnManageOrders"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/manage_products"
-            android:padding="12dp"/>
+            android:text="Manage Orders"
+            android:layout_marginBottom="12dp"/>
 
         <Button
-            android:id="@+id/btnViewOrders"
+            android:id="@+id/btnLowStock"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/view_orders"
-            android:layout_marginTop="16dp"
-            android:padding="12dp"/>
+            android:text="Low Stock Products"
+            android:layout_marginBottom="12dp"/>
 
         <Button
-            android:id="@+id/btnViewReviews"
+            android:id="@+id/btnProductQuality"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/product_reviews"
-            android:layout_marginTop="16dp"
-            android:padding="12dp"/>
+            android:text="Set Product Quality"
+            android:layout_marginBottom="12dp"/>
 
         <Button
-            android:id="@+id/btnForecast"
+            android:id="@+id/btnCustomerComments"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/forecast_stock_status"
-            android:layout_marginTop="16dp"
-            android:padding="12dp"/>
+            android:text="View Customer Comments"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FF5722"
+            android:textColor="#FFFFFF"/>
 
     </LinearLayout>
 </ScrollView>
+
