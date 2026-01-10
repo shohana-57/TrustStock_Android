@@ -49,6 +49,7 @@ dependencies {
     implementation libs.googleid
    // implementation libs.firebase.firestore
     implementation 'com.google.firebase:firebase-firestore'
+    implementation libs.recyclerview
 
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit

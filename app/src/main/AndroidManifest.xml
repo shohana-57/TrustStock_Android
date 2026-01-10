@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 
     <application
         android:allowBackup="true"
@@ -11,19 +13,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrustStock">
         <activity
-            android:name=".CustomerLogin"
+            android:name=".activities.CartActivity"
             android:exported="false" />
         <activity
-            android:name=".StaffLoginActivity"
+            android:name=".activities.QualityManagementActivity"
             android:exported="false" />
         <activity
-            android:name=".CustomerDashboardActivity"
+            android:name=".InitialActivity.CustomerLogin"
             android:exported="false" />
         <activity
-            android:name=".StaffDashboardActivity"
+            android:name=".InitialActivity.StaffLoginActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".activities.CustomerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.StaffDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LowStockActivity"
+            android:exported="false"/>
+
+        <activity android:name=".activities.StaffOrdersActivity"
+            android:exported="false"/>
+        <activity android:name=".activities.CustomerCommentsActivity"
+            android:exported="false"/>
+        <activity android:name=".activities.CommentsManagementActivity"
+            />
+
+        <activity
+            android:name=".InitialActivity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +51,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".InitialActivity.MainActivity"
             android:exported="false" />
     </application>
 
