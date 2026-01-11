@@ -29,7 +29,6 @@ public class CustomerDashboardActivity extends AppCompatActivity {
     private List<Product> products;
     private FirebaseFirestore db;
     ImageButton btnProfile;
-    Button btnSearch;
     FloatingActionButton btnCart;
 
     @Override
@@ -40,21 +39,12 @@ public class CustomerDashboardActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerProducts);
         btnCart = findViewById(R.id.btnCart);
         btnProfile = findViewById(R.id.btnProfile);
-        btnSearch = findViewById(R.id.btnSearch);
-        EditText etSearch = findViewById(R.id.etSearch);
 
         Button btnComment = findViewById(R.id.btnComment);
 
         btnComment.setOnClickListener(v -> {
             Intent intent = new Intent(this, CustomerCommentsActivity.class);
             startActivity(intent);
-        });
-
-
-
-        btnSearch.setOnClickListener(v -> {
-            String query = etSearch.getText().toString().trim();
-            adapter.filter(query);
         });
 
         products = new ArrayList<>();
@@ -66,9 +56,7 @@ public class CustomerDashboardActivity extends AppCompatActivity {
         loadProducts();
         loadAverageRatings();
 
-        btnSearch.setOnClickListener(v ->
-                Toast.makeText(this, "Search clicked", Toast.LENGTH_SHORT).show()
-        );
+
 
         btnCart.setOnClickListener(v -> {
             if (CartManager.getCart().isEmpty()) {
